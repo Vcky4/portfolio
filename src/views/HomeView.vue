@@ -46,6 +46,35 @@
               <div class="child bgColor1">
                 <v-icon color="#A7121D" x-large class="ml-3" dark>
                   mdi-book-open-page-variant</v-icon>
+                <h3 class="white--text ml-3 mt-4">Branding</h3>
+                <p class="grey--text ml-3 mt-6">
+                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+                </p>
+                <v-btn color="#A7121D" dark text>Know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
+            </v-col>
+            <v-col cols="12" class="mt-10">
+              <div class="child ">
+                <h1 class="red--text text-darken-4 mt-4 number">12</h1>
+                <h3 class="white--text mt-4">Years Expirience</h3>
+              </div>
+              <div class="child2 mRight ">
+                <v-row>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 mButton padding bgColor1">
+                      <h1 class="red--text" text-darken-4>60+</h1>
+                      <p class="grey--text">Clients</p>
+                    </div>
+                  </v-col>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 mButton padding bgColor1">
+                      <h1 class="red--text" text-darken-4>112+</h1>
+                      <p class="grey--text">Complete Projects</p>
+                    </div>
+                  </v-col>
+                </v-row>
               </div>
             </v-col>
           </div>
