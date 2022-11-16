@@ -17,6 +17,39 @@
           </p>
           <v-btn tile color="#A7121D" dark>About me</v-btn>
         </v-col>
+        <v-col cols="12" class="padd">
+          <div class="first" id="project">
+            <v-col cols="12">
+              <div class="child bgColor">
+                <v-icon color="#A7121D" x-large class="ml-3">
+                  mdi-palette-swatch
+                </v-icon>
+                <h3 class="white--text ml-3 mt-4">UI Design</h3>
+                <p class="grey--text ml-3 mt-6">
+                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+                </p>
+                <v-btn color="#A7121D" dark text>Know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
+              <div class="child bgColor2">
+                <v-icon x-large class="ml-3" dark>
+                  mdi-shopping</v-icon>
+                <h3 class="white--text ml-3 mt-4">Product Design</h3>
+                <p class="grey--text ml-3 mt-6">
+                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+                </p>
+                <v-btn dark text>Know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
+              <div class="child bgColor1">
+                <v-icon color="#A7121D" x-large class="ml-3" dark>
+                  mdi-book-open-page-variant</v-icon>
+              </div>
+            </v-col>
+          </div>
+        </v-col>
       </v-row>
     </v-container>
   </V-app>
@@ -127,7 +160,8 @@ mBottom {
 .col-12.childcol {
   padding: 0 !important;
 }
-h1.number{
+
+h1.number {
   font-size: 50px;
   font-weight: bold;
 }
