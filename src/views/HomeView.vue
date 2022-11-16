@@ -55,17 +55,19 @@ export default {
       #181818 50%,
       #111111 50%,
       #111111 50%);
-      text-align: center;
-      padding: 2rem 2rem;
+  text-align: center;
+  padding: 2rem 2rem;
 }
-.second{
+
+.second {
   width: 100%;
   height: 400px;
   background: #181818;
   text-align: center;
   padding: 2rem 2rem;
 }
-.secondchild1{
+
+.secondchild1 {
   display: inline-block;
   background-color: #1e1e1e;
   padding: 2rem 1rem;
@@ -73,7 +75,8 @@ export default {
   text-align: left;
   margin-top: 250px;
 }
-.child{
+
+.child {
   display: inline-block;
   background-color: #1e1e1e;
   padding: 2rem 1rem;
@@ -81,13 +84,16 @@ export default {
   text-align: left;
   margin-right: 8px;
 }
-.bgColor1{
+
+.bgColor1 {
   background-color: #1e1e1e;
 }
-.bgColor2{
+
+.bgColor2 {
   background-color: #ce1d2a;
 }
-.child1{
+
+.child1 {
   display: inline-block;
   padding: 2rem 1rem;
   vertical-align: middle;
@@ -95,9 +101,34 @@ export default {
   margin-right: 5px;
   width: 240px;
 }
-.child2{
+
+.child2 {
   display: inline-block;
   vertical-align: middle;
   width: 245px;
+}
+
+.mRight {
+  margin-right: 8px;
+}
+
+mBottom {
+  margin-bottom: 8px;
+}
+
+.padding {
+  padding: 8px 0px;
+}
+
+.col-12.padd {
+  padding: 12px 0 !important;
+}
+
+.col-12.childcol {
+  padding: 0 !important;
+}
+h1.number{
+  font-size: 50px;
+  font-weight: bold;
 }
 </style>
